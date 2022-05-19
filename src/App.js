@@ -39,7 +39,7 @@ export default class App extends Component {
           onClick={this.handleShowInfo}
           style={{ backgroundColor: "#231E39" }}
         >
-         {this.state.show?"Hide-Profile":"Sow-Profile"}
+         {this.state.show?"Hide-Profile":"Show-Profile"}
         </button>
       </div>
     );
